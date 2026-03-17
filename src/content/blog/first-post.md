@@ -1,7 +1,7 @@
 ---
 title: 'First post'
-description: 'Lorem ipsum dolor sit amet'
-pubDate: 'Jul 08 2022'
+description: 'The first way to kill a Priranha'
+pubDate: 'March 17 2026'
 heroImage: '../../assets/blog-placeholder-3.jpg'
 ---
 

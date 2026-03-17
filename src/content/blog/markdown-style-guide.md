@@ -11,17 +11,17 @@ Here is a sample of some basic Markdown syntax that can be used when writing Mar
 
 The following HTML `<h1>`—`<h6>` elements represent six levels of section headings. `<h1>` is the highest section level while `<h6>` is the lowest.
 
-# H1
+# Hello World
 
-## H2
+## Lorem Ipsum
 
-### H3
+### The quick brown fox jumped over the fence
 
-#### H4
+#### Jumbo rumbo rambo mumbo
 
-##### H5
+##### Println("This is an H5")
 
-###### H6
+###### Console.Stdout.Writeln("This is an H6")
 
 ## Paragraph
 
