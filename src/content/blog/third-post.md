@@ -1,5 +1,5 @@
 ---
-title: 'Third post'
+title: 'The Evening Post by Jared Kushner'
 description: 'Married to the Jungle (Life story of Dan Cooper)'
 pubDate: 'Jul 22 2022'
 heroImage: '../../assets/blog-placeholder-2.jpg'
