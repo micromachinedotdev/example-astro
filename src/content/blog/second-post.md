@@ -1,7 +1,7 @@
 ---
-title: 'Second post'
+title: 'The Morning Post'
 description: 'Into the wild with Jeremy Brockman'
-pubDate: 'Feb 15 2026'
+pubDate: 'March 15 2026'
 heroImage: '../../assets/blog-placeholder-4.jpg'
 ---
 
