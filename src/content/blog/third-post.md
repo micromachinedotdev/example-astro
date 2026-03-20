@@ -1,7 +1,7 @@
 ---
-title: 'The Evening Post by Jared Kushner'
-description: 'Married to the Jungle (Life story of Dan Cooper)'
-pubDate: 'Jul 22 2022'
+title: 'Svalbard, the lost city of Norse'
+description: 'Excerpted from the Shakespearian Museum of Norsebald'
+pubDate: 'Jul 22 2024'
 heroImage: '../../assets/blog-placeholder-2.jpg'
 ---
 
