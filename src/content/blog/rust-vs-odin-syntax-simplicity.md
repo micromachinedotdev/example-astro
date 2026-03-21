@@ -3,7 +3,7 @@ title: "Rust vs Odin: Syntax Simplicity (No BS Comparison)"
 description: "A direct comparison of Rust and Odin syntax—how they feel to write, read, and maintain when you strip away marketing."
 pubDate: 2026-03-21
 author: "Simeon"
-tags: ["rust", "odin", "syntax", "systems-programming", "comparison"],
+tags: ["rust", "odin", "syntax", "systems-programming", "comparison"]
 heroImage: '../../assets/blog-placeholder-2.jpg'
 ---
 
