@@ -3,7 +3,8 @@ title: "Memory Management: Go vs Zig vs Node.js vs Rust"
 description: "A practical breakdown of how four modern runtimes and languages handle memory, and what that means for performance, control, and developer experience."
 pubDate: 2026-03-21
 author: "Simeon"
-tags: ["memory-management", "go", "zig", "nodejs", "rust", "systems", "performance"]
+tags: ["memory-management", "go", "zig", "nodejs", "rust", "systems", "performance"],
+heroImage: '../../assets/blog-placeholder-3.jpg'
 ---
 
 ## Overview
