@@ -45,10 +45,10 @@ main :: proc() {
 
 ### Immediate Differences
 
-* Rust uses `fn`, Odin uses `proc`
-* Rust leans on macros (`println!`), Odin uses normal functions
-* Odin drops semicolons (mostly)
-* Rust types are explicit but often inferred; Odin is explicit but cleaner
+- Rust uses `fn`, Odin uses `proc`
+- Rust leans on macros (`println!`), Odin uses normal functions
+- Odin drops semicolons (mostly)
+- Rust types are explicit but often inferred; Odin is explicit but cleaner
 
 **Verdict:** Odin reads closer to pseudocode. Rust looks heavier immediately.
 
@@ -72,8 +72,8 @@ y: int = 20
 
 ### Take
 
-* Rust forces you to think about mutability (`mut`)
-* Odin keeps it simple, no ceremony unless needed
+- Rust forces you to think about mutability (`mut`)
+- Odin keeps it simple, no ceremony unless needed
 
 **Verdict:** Odin wins on simplicity, Rust wins on intent clarity.
 
@@ -99,8 +99,8 @@ add :: proc(a: int, b: int) -> int {
 
 ### Take
 
-* Rust syntax is more traditional
-* Odin’s `:: proc` is unusual at first but consistent across declarations
+- Rust syntax is more traditional
+- Odin’s `:: proc` is unusual at first but consistent across declarations
 
 **Verdict:** Tie. Rust is familiar; Odin is cleaner once learned.
 
@@ -131,8 +131,8 @@ read :: proc() -> (string, bool) {
 
 ### Take
 
-* Rust: powerful but introduces `Result`, `Option`, `?`, pattern matching
-* Odin: just returns multiple values
+- Rust: powerful but introduces `Result`, `Option`, `?`, pattern matching
+- Odin: just returns multiple values
 
 **Verdict:** Odin is simpler. Rust is more expressive but noisier.
 
@@ -164,8 +164,8 @@ if x > 10 {
 
 Almost identical, except:
 
-* Rust uses macros again
-* Odin stays consistent
+- Rust uses macros again
+- Odin stays consistent
 
 **Verdict:** Odin slightly cleaner.
 
@@ -193,8 +193,8 @@ User :: struct {
 
 ### Take
 
-* Odin unifies declaration syntax (`::`)
-* Rust uses different keywords depending on context
+- Odin unifies declaration syntax (`::`)
+- Rust uses different keywords depending on context
 
 **Verdict:** Odin is more uniform.
 
@@ -206,11 +206,11 @@ User :: struct {
 
 You’re constantly thinking about:
 
-* Ownership
-* Borrowing
-* Lifetimes
-* Traits
-* Generics
+- Ownership
+- Borrowing
+- Lifetimes
+- Traits
+- Generics
 
 Example:
 
@@ -228,8 +228,8 @@ This is not syntax-heavy—it’s **concept-heavy**.
 
 You think about:
 
-* Types
-* Memory (when needed)
+- Types
+- Memory (when needed)
 
 That’s it.
 
@@ -248,31 +248,31 @@ That’s it.
 
 ## Brutal Truth
 
-* Rust syntax isn’t the real issue — **the type system is**
-* Odin syntax is simple because **it avoids complexity entirely**
+- Rust syntax isn’t the real issue — **the type system is**
+- Odin syntax is simple because **it avoids complexity entirely**
 
 ---
 
 ## When Syntax Matters
 
-### Pick Rust if:
+### Pick Rust if
 
-* You want guarantees enforced at compile time
-* You accept verbosity for correctness
-* You’re building long-lived, critical systems
+- You want guarantees enforced at compile time
+- You accept verbosity for correctness
+- You’re building long-lived, critical systems
 
-### Pick Odin if:
+### Pick Odin if
 
-* You want code that reads like English
-* You prioritize iteration speed
-* You don’t want the compiler fighting you
+- You want code that reads like English
+- You prioritize iteration speed
+- You don’t want the compiler fighting you
 
 ---
 
 ## Final Take
 
-* **Rust feels like writing a contract**
-* **Odin feels like writing instructions**
+- **Rust feels like writing a contract**
+- **Odin feels like writing instructions**
 
 Rust makes illegal states unrepresentable.
 Odin lets you represent anything—and trusts you not to screw it up.
@@ -284,4 +284,3 @@ If your metric is **syntax simplicity only**:
 If your metric includes safety and correctness:
 
 > Rust earns its complexity.
-
