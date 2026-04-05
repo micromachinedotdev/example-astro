@@ -1,7 +1,7 @@
 ---
 title: 'HTTP Servers in Zig vs Rust vs Go'
 description: 'Three different languages, three very different moods: pragmatic concurrency in Go, safety-first composition in Rust, and explicit control in Zig.'
-pubDate: 'Mar 21 2026'
+pubDate: 'Apr 05 2026'
 heroImage: '../../assets/blog-placeholder-2.jpg'
 ---
 
