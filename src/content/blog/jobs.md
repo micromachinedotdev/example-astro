@@ -1,7 +1,7 @@
 ---
 title: 'Scheduling One-Off Jobs in Go Without Adding Another Service'
 description: 'A practical look at cross-instance background tasks with Postgres, Redis, NATS, and why the simplest option usually wins.'
-pubDate: 'Mar 21 2026'
+pubDate: 'Apr 05 2026'
 heroImage: '../../assets/blog-placeholder-2.jpg'
 ---
 
