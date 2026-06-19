@@ -1,7 +1,7 @@
 ---
 title: 'Scheduling One-Off Jobs in Go Without Adding Another Service'
 description: 'A practical look at cross-instance background tasks with Postgres, Redis, NATS, and why the simplest option usually wins.'
-pubDate: 'Apr 05 2026'
+pubDate: 'Apr 10 2026'
 heroImage: '../../assets/blog-placeholder-2.jpg'
 ---
 
@@ -26,3 +26,5 @@ The real lesson is that background scheduling is less about timers and more abou
 In practice, the best solution is usually the one that adds the least new infrastructure. If your team already runs NATS well, use NATS. If Postgres is your most dependable shared system, use Postgres. If Redis is already your coordination layer, that is a perfectly reasonable place too.
 
 A one-off task does not need a dramatic architecture. It just needs one durable source of truth, one safe claim path, and a handler that is happy to be retried.
+
+Written by [Cmion](https://x.com/cmiondotdev)
